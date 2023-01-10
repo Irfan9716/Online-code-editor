@@ -17,7 +17,7 @@ function App() {
           <script>${js}</script>
         </html>
       `)
-    }, 250)
+    }, 1000)
 
     return () => clearTimeout(timeout)
   }, [html, css, js])
