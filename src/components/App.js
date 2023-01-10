@@ -24,7 +24,11 @@ function App() {
 
   return (
     <>
+      <div>
+        <img src="/Code_editor_logo.png" height="80px" />
+      </div>
       <div className="pane top-pane">
+        
         <Editor
           language="xml"
           displayName="HTML"
